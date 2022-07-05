@@ -3,6 +3,7 @@ import { Typography, Grid, Button } from '@material-ui/core';
 import { Box } from '@mui/material'
 import './Home.css';
 
+
 function Home() {
     return (
         <>
@@ -46,9 +47,8 @@ function Home() {
                         <Box marginRight={1}>
                         </Box>
 
-                        <Button
+                        <Button className='verpost'
                             variant="outlined"
-                            className='botao'
                         >Ver Postagens
                         </Button>
                         <p>                         </p>

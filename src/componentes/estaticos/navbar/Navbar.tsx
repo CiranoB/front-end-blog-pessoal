@@ -17,9 +17,11 @@ function Navbar() {
 
                     <Box display="flex" justifyContent="start">
                         <Box mx={1} className='cursor'>
+                            <Link to='/home' className='cursor'>
                             <Typography variant="h6" color="inherit">
                                 home
                             </Typography>
+                            </Link>
                         </Box>
 
                         <Box mx={1} className='cursor'>

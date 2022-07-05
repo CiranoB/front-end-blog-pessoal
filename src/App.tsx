@@ -6,7 +6,7 @@ import Footer from './componentes/estaticos/footer/Footer';
 import Navbar from './componentes/estaticos/navbar/Navbar';
 import Home from './componentes/paginas/home/Home';
 import Login from './componentes/paginas/login/Login';
-// import CadastroUsuario from './paginas/cadastroUsuario/CadastroUsuario';
+import CadastroUsuario from './componentes/paginas/cadastroUsuario/CadastroUsuario';
 
 function App() {
   return (
@@ -30,11 +30,11 @@ function App() {
          path="/login" 
          element={< Login />} 
         />
-{/* 
+
         <Route 
          path="/cadastrousuario" 
          element={< CadastroUsuario />} 
-        />    */}
+        />   
 
       </Routes>
     </div>
